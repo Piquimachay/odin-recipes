@@ -1,3 +1,8 @@
+* {
+    box-sizing: content-box;
+    /*outline: 2px solid red;*/
+  }
+
 body {
     background-color: blanchedalmond;
     font-family: monospace;
@@ -20,8 +25,42 @@ a {
     font-size: 32px;
     list-style-position: inside;
     list-style-type: none;
+    background-color: beige;
+    width: 400px;
+    padding-right: 40px;
 }
 
 ol {
     list-style-type: upper-roman;
+}
+
+.img {
+    padding-left: 10px;
+}
+
+.side {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.center {
+    width: 480px;
+    display: inline-block;
+}
+
+.we {
+    display: flex;
+}
+
+.we div {
+    flex: 1;
+    padding: 15px;
+}
+
+.img-div {
+    width: auto;
+    height: 300px;
 }
