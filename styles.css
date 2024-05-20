@@ -53,6 +53,7 @@ ol {
 
 .we {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .we div {
